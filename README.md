@@ -7,7 +7,8 @@ A simple Python program that records chess moves and saves them into a file.
 - Move counter
 - Saves game to chess_game.txt
 
-```row1_white = ["rook","knight","bishop","queen","king","bishop","knight","rook"]
+```
+row1_white = ["rook","knight","bishop","queen","king","bishop","knight","rook"]
 row2_white = ["pawn","pawn","pawn","pawn","pawn","pawn","pawn","pawn",]
 row3 = []
 row4 = []
@@ -85,4 +86,5 @@ with open("chess_game.txt", "w") as file:
             line = str(move_number) + ". " + white + "\n"
 
         file.write(line)
-print("Game saved to chess_game.txt") ```
+print("Game saved to chess_game.txt")
+```
