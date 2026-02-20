@@ -1,5 +1,12 @@
 # chess-move-recorder
 
+A simple Python program that records chess moves and saves them into a file.
+
+## Features
+- Move format validation (e2e4)
+- Move counter
+- Saves game to chess_game.txt
+
 ```row1_white = ["rook","knight","bishop","queen","king","bishop","knight","rook"]
 row2_white = ["pawn","pawn","pawn","pawn","pawn","pawn","pawn","pawn",]
 row3 = []
